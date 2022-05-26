@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- /Meta -->
+
+    <!-- Title -->
     <title>Sitio Web Freelancer</title>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- CSS -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>Nicolás Naranjo Freelancer</h1>
+        <h1 class="titulo">Nicolás Naranjo <span>Freelancer</span></h1>
     </header> <!-- /Header -->
 
     <!-- Nav -->
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre Mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contacto</a>
+    <div class="nav-bg">
+        <nav class="nav-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </div>
     </nav> <!-- /Nav -->
-
+    
     <!-- Hero -->
-    <img src="img/hero.jpg" alt="">
-
     <section>
-        <h2>Diseño y Desarrollo Web Freelancer</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span></h2>
 
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

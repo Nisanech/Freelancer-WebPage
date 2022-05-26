@@ -1,0 +1,62 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap');
+
+/*  Custom Properties */
+:root {
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+/* General */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+}
+/* /General */
+
+/* Título */
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span {
+    font-size: 2rem;
+}
+/* /Título */
+
+/* Nav */
+.contenedor {
+    width: 120rem;
+    margin: 0 auto; /* top right bottom left / Si los valores son iguales se pueden dejar solo 2 */
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+/* /Nav */
